@@ -14,7 +14,7 @@ $footer='flase';
                 <div class="header-top-area">
                     <div class="header-top-left">
                         <a href="newsletter" class="newsletter-link"><i class="rt rt-location-dot"></i> Store Locator</a>
-                        <h3 class="welcome-text"><i class="far fa-envelope"></i>pixcelsthemes@gmail.com</h3>
+                        <h3 class="welcome-text"><i class="far fa-envelope"></i>maktechsolution.com</h3>
                     </div>
                     <div class="slider-div">
                         <div class="swiper rts-topSlide1">
@@ -61,25 +61,25 @@ $footer='flase';
                 <div class="navbar-part navbar-part1 navbar-part5">
                     <div class="navbar-inner">
                         <div class="left-side">
-                            <a href="{{ route('index') }}" class="logo"><img src="{{ asset('assets/images/logo8.svg') }}" alt="weiboo-logo"></a>
+                            <a href="{{ route('index') }}" class="logo"><img src="{{ asset('assets/images/logo9.jpg') }}" alt="weiboo-logo" width="150px"></a>
                         </div>
                         <div class="rts-menu">
                             <nav class="menus menu-toggle">
                                 <ul class="nav__menu">
-                                    <li class="has-dropdown"><a class="menu-item active1" href="#">Home <i
+                                    <li class="has-dropdown"><a class="menu-item active1" href="{{ route('index') }}">Home <i
                                                 class="rt-plus"></i></a>
                                         
                                     </li>
-                                    <li class="has-dropdown"><a class="menu-item" href="#">Shop <i
+                                    <li class="has-dropdown"><a class="menu-item" href="https://maktechsolution.com/about/">Shop <i
                                                 class="rt-plus"></i></a>
                                       
                                     </li>
-                                    <li class="has-dropdown"><a class="menu-item" href="#">Pages <i
+                                    <li class="has-dropdown"><a class="menu-item" href="https://maktechsolution.com/portfolio/">Pages <i
                                                 class="rt-plus"></i></a>
                                          
                                     </li>
 
-                                    <li class="has-dropdown"><a class="menu-item" href="#">Blog <i
+                                    <li class="has-dropdown"><a class="menu-item" href="https://maktechsolution.com/mts_gig_service/">Blog <i
                                                 class="rt-plus"></i></a>
                                        
                                     </li>
@@ -244,8 +244,8 @@ $footer='flase';
                         <h4 class="offset-title mb-20">Get In Touch </h4>
                         <ul>
                             <li class="info phone"><a href="tel:78090790890208806803">780 907 908 90, 208 806 803</a></li>
-                            <li class="info email"><a href="email:pixcelsthemes@gmail.com">pixcelsthemes@gmail.com</a></li>
-                            <li class="info web"><a href="www.webexample.com">www.webexample.com</a></li>
+                            <li class="info email"><a href="email:pixcelsthemes@gmail.com">maktechsolution@gmail.com</a></li>
+                            <li class="info web"><a href="www.webexample.com">www.maktechsolution.com</a></li>
                             <li class="info location">13/A, New Pro State, NYC</li>
                         </ul>
                         <div class="offset-social-link">
@@ -1441,7 +1441,7 @@ $footer='flase';
                 <div class="row">
                     <div class="col-xl-3 col-md-6 col-sm-6">
                         <div class="footer-widget">
-                            <div class="footer-logo"><img src="{{ asset('assets/images/logo9.svg') }}" alt="footer-logo"></div>
+                            <div class="footer-logo"><img src="{{ asset('assets/images/logo9.jpg') }}" alt="footer-logo" width="150px"></div>
                             <p class="widget-text">“ This is genuinely the first theme i bought for
                                 which i did not had to write one line of code. I
                                 would recommand everybody to get it. “</p>
@@ -1451,8 +1451,8 @@ $footer='flase';
                                     </div>
                                     <div class="contact-info">
                                         <span class="title">Get Support</span>
-                                        <a href="mailto:pixcelsthemes@gmail.com"
-                                            class="email-address info info2">pixcelsthemes@gmail.com</a>
+                                        <a href="mailto:maktechsolution@gmail.com"
+                                            class="email-address info info2">maktechsolution.com</a>
                                     </div>
                                 </div>
                                 <div class="email contact-item">
@@ -1540,8 +1540,8 @@ $footer='flase';
         <div class="footer-bottom-area">
             <div class="container">
                 <div class="footer-bottom-inner">
-                    <span class="copyright">Copyright 2024 <span class="site">©Weiboo</span>. All rights reserved.
-                        Powered by <a href="http://PixcelsThemes.com" class="brand" target="_blank">PixcelsThemes.</a></span>
+                    <span class="copyright">Copyright 2024 <span class="site">©maktechsolution</span>. All rights reserved.
+                        Powered by <a href="http://maktechsolution.com" class="brand" target="_blank">maktechsolution</a></span>
                     <div class="payment-methods"><img src="{{ asset('assets/images/footer/payment2.svg') }}" alt="payment-methods">
                     </div>
                 </div>

@@ -1540,7 +1540,7 @@ $footer='flase';
         <div class="footer-bottom-area">
             <div class="container">
                 <div class="footer-bottom-inner">
-                    <span class="copyright">Copyright 2024 <span class="site">©Weiboo</span>. All rights reserved.
+                    <span class="copyright">Copyright 2024 <span class="site">©maktechsolution</span>. All rights reserved.
                         Powered by <a href="http://PixcelsThemes.com" class="brand" target="_blank">PixcelsThemes.</a></span>
                     <div class="payment-methods"><img src="{{ asset('assets/images/footer/payment2.svg') }}" alt="payment-methods">
                     </div>

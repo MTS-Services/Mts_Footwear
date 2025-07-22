@@ -551,7 +551,7 @@ $footer='flase';
                             <div class="bottom-text">
                                 <h4 class="sub-title">New Collections</h4>
                                 <h3 class="title">Splash Into Summer</h3>
-                                <a href="{{ route('shop') }}" class="btn-text">SHOP NOW</a>
+                                <a href="{{ route('index') }}" class="btn-text">SHOP NOW</a>
                             </div>
                         </div>
                     </div>
@@ -563,7 +563,7 @@ $footer='flase';
                             <div class="bottom-text">
                                 <h4 class="sub-title">New Collections</h4>
                                 <h3 class="title">20% Off For You</h3>
-                                <a href="{{ route('shop') }}" class="btn-text">SHOP NOW</a>
+                                <a href="{{ route('index') }}" class="btn-text">SHOP NOW</a>
                             </div>
                         </div>
                     </div>
@@ -575,7 +575,7 @@ $footer='flase';
                             <div class="bottom-text">
                                 <h4 class="sub-title">New Collections</h4>
                                 <h3 class="title">Special Edition Shoes</h3>
-                                <a href="{{ route('shop') }}" class="btn-text">SHOP NOW</a>
+                                <a href="{{ route('index') }}" class="btn-text">SHOP NOW</a>
                             </div>
                         </div>
                     </div>
@@ -1540,7 +1540,7 @@ $footer='flase';
         <div class="footer-bottom-area">
             <div class="container">
                 <div class="footer-bottom-inner">
-                    <span class="copyright">Copyright 2024 <span class="site">©Weiboo</span>. All rights reserved.
+                    <span class="copyright">Copyright 2024 <span class="site">©maktechsolution</span>. All rights reserved.
                         Powered by <a href="http://PixcelsThemes.com" class="brand" target="_blank">PixcelsThemes.</a></span>
                     <div class="payment-methods"><img src="{{ asset('assets/images/footer/payment2.svg') }}" alt="payment-methods">
                     </div>
