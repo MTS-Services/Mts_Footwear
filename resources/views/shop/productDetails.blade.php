@@ -61,7 +61,7 @@ $footer='flase';
                 <div class="navbar-part navbar-part1 navbar-part5">
                     <div class="navbar-inner">
                         <div class="left-side">
-                            <a href="{{ route('index') }}" class="logo"><img src="{{ asset('assets/images/logo8.svg') }}" alt="weiboo-logo"></a>
+                            <a href="{{ route('index') }}" class="logo"><img src="{{ asset('assets/images/logo9.jpg') }}" alt="weiboo-logo" width="150"></a>
                         </div>
                         <div class="rts-menu">
                             <nav class="menus menu-toggle">
@@ -300,12 +300,12 @@ $footer='flase';
                             </li>
                             <li class="mega-dropdown-li">
                                 <ul class="mega-dropdown-ul mm-show">
-                                    <li class="dropdown-li"><a class="dropdown-link" href="{{ route('productDetails') }}">Single Product
+                                    <li class="dropdown-li"><a class="dropdown-link" href="{{ route('index') }}">Single Product
                                             Layout
                                             One</a>
                                     </li>
                                     <li class="dropdown-li"><a class="dropdown-link"
-                                            href="{{ route('productDetails2') }}">Single Product Layout
+                                            href="{{ route('index') }}">Single Product Layout
                                             Two</a>
                                     </li>
                                     <li class="dropdown-li"><a class="dropdown-link" href="{{ route('variableProducts') }}">Variable Product</a>
@@ -421,7 +421,7 @@ $footer='flase';
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
                             <div class="product-item2 element-item2">
-                                <a href="{{ route('productDetails') }}" class="product-image2 image-slider-variations">
+                                <a href="{{ route('index') }}" class="product-image2 image-slider-variations">
                                     <img src="{{ asset('assets/images/banner/banner-img.webp') }}" alt="">
                                 </a>
                             </div>
@@ -431,7 +431,7 @@ $footer='flase';
                                 <div class="col-xl-2"></div>
                                 <div class="col-xl-10 col-lg-12 col-12">
                                     <div class="product-item element-item2">
-                                        <a href="{{ route('productDetails') }}" class="product-image image-slider-variations">
+                                        <a href="{{ route('index') }}" class="product-image image-slider-variations">
                                             <div class="hot">HOT</div>
                                             <div class="swiper productSlide">
                                                 <div class="swiper-wrapper">
@@ -1441,7 +1441,7 @@ $footer='flase';
                 <div class="row">
                     <div class="col-xl-3 col-md-6 col-sm-6">
                         <div class="footer-widget">
-                            <div class="footer-logo"><img src="{{ asset('assets/images/logo9.svg') }}" alt="footer-logo"></div>
+                            <div class="footer-logo"><img src="{{ asset('assets/images/logo9.jpg') }}" alt="footer-logo" width="10"></div>
                             <p class="widget-text">“ This is genuinely the first theme i bought for
                                 which i did not had to write one line of code. I
                                 would recommand everybody to get it. “</p>
@@ -1452,7 +1452,7 @@ $footer='flase';
                                     <div class="contact-info">
                                         <span class="title">Get Support</span>
                                         <a href="mailto:pixcelsthemes@gmail.com"
-                                            class="email-address info info2">pixcelsthemes@gmail.com</a>
+                                            class="email-address info info2">maktechsolution@gmail.com</a>
                                     </div>
                                 </div>
                                 <div class="email contact-item">

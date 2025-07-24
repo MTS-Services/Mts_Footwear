@@ -66,20 +66,20 @@ $footer='flase';
                         <div class="rts-menu">
                             <nav class="menus menu-toggle">
                                 <ul class="nav__menu">
-                                    <li class="has-dropdown"><a class="menu-item active1" href="{{ route('index') }}">Rsd <i
+                                    <li class="has-dropdown"><a class="menu-item active1" href="{{ route('index') }}">Home <i
                                                 class="rt-plus"></i></a>
                                         
                                     </li>
-                                    <li class="has-dropdown"><a class="menu-item" href="https://maktechsolution.com/about/">Shop <i
+                                    <li class="has-dropdown"><a class="menu-item" href="#Check_Our_Latest_Arrivals">Check Arrivals <i
                                                 class="rt-plus"></i></a>
                                       
                                     </li>
-                                    <li class="has-dropdown"><a class="menu-item" href="https://maktechsolution.com/portfolio/">Pages <i
+                                    <li class="has-dropdown"><a class="menu-item" href="#Explore_our">Explore our <i
                                                 class="rt-plus"></i></a>
                                          
                                     </li>
 
-                                    <li class="has-dropdown"><a class="menu-item" href="https://maktechsolution.com/mts_gig_service/">Blog <i
+                                    <li class="has-dropdown"><a class="menu-item" href="#blog">Blog <i
                                                 class="rt-plus"></i></a>
                                        
                                     </li>
@@ -281,11 +281,11 @@ $footer='flase';
                         </ul>
                     </li>
                     <li class="has-dropdown firstlvl">
-                        <a class="mm-link" href="{{ route('shop') }}">Shop <i class="rt-angle-down"></i></a>
+                        <a class="mm-link" href="{{ route('index') }}">Shop <i class="rt-angle-down"></i></a>
                         <ul class="sub-menu mega-dropdown-mobile">
                             <li class="mega-dropdown-li">
                                 <ul class="mega-dropdown-ul mm-show">
-                                    <li class="dropdown-li"><a class="dropdown-link" href="{{ route('shop') }}">Shop</a>
+                                    <li class="dropdown-li"><a class="dropdown-link" href="{{ route('index') }}">Shop</a>
                                     </li>
                                     <li class="dropdown-li"><a class="dropdown-link" href="{{ route('sidebarLeft') }}">Left Sidebar
                                             Shop</a>
@@ -300,12 +300,12 @@ $footer='flase';
                             </li>
                             <li class="mega-dropdown-li">
                                 <ul class="mega-dropdown-ul mm-show">
-                                    <li class="dropdown-li"><a class="dropdown-link" href="{{ route('productDetails') }}">Single Product
+                                    <li class="dropdown-li"><a class="dropdown-link" href="{{ route('index') }}">Single Product
                                             Layout
                                             One</a>
                                     </li>
                                     <li class="dropdown-li"><a class="dropdown-link"
-                                            href="{{ route('productDetails2') }}">Single Product Layout
+                                            href="{{ route('index') }}">Single Product Layout
                                             Two</a>
                                     </li>
                                     <li class="dropdown-li"><a class="dropdown-link" href="{{ route('variableProducts') }}">Variable Product</a>
@@ -421,7 +421,7 @@ $footer='flase';
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
                             <div class="product-item2 element-item2">
-                                <a href="{{ route('productDetails') }}" class="product-image2 image-slider-variations">
+                                <a href="{{ route('index') }}" class="product-image2 image-slider-variations">
                                     <img src="{{ asset('assets/images/banner/banner-img.webp') }}" alt="">
                                 </a>
                             </div>
@@ -431,7 +431,7 @@ $footer='flase';
                                 <div class="col-xl-2"></div>
                                 <div class="col-xl-10 col-lg-12 col-12">
                                     <div class="product-item element-item2">
-                                        <a href="{{ route('productDetails') }}" class="product-image image-slider-variations">
+                                        <a href="{{ route('index') }}" class="product-image image-slider-variations">
                                             <div class="hot">HOT</div>
                                             <div class="swiper productSlide">
                                                 <div class="swiper-wrapper">
@@ -470,7 +470,7 @@ $footer='flase';
                                                 <i class="fas fa-star"></i>
                                                 <i class="fas fa-star"></i>
                                             </div>
-                                            <a href="{{ route('productDetails') }}" class="product-name">Apex Men's Shoe</a>
+                                            <a href="{{ route('index') }}" class="product-name">Apex Men's Shoe</a>
                                             <div class="action-wrap">
                                                 <span class="price">$44.00 - $233.00</span>
                                             </div>
@@ -480,7 +480,7 @@ $footer='flase';
                                                 <a href="#"><i class="rt-plus"></i></a>
                                             </div>
                                             <div class="cta-single cta-quickview">
-                                                <button class="product-details-popup-btn"><i class="far fa-eye"></i></button>
+                                                <button class="#"><i class="far fa-eye"></i></button>
                                             </div>
                                             <div class="cta-single cta-wishlist">
                                                 <a href="{{ route('wishlist') }}"><i class="far fa-heart"></i></a>
@@ -586,7 +586,7 @@ $footer='flase';
     <!-- ..::Offer Section End Here::.. -->
 
     <!-- ..::Featured Product Section Start Here::.. -->
-    <div class="rts-featured-product-section1 featured-product7">
+    <div class="rts-featured-product-section1 featured-product7" id="Check_Our_Latest_Arrivals">
         <div class="container">
             <div class="rts-featured-product-section-inner">
                 <div class="section-header section-header3 text-center">
@@ -602,7 +602,7 @@ $footer='flase';
                 <div class="row">
                     <div class="col-xl-3 col-md-4 col-sm-6 col-12">
                         <div class="product-item element-item1">
-                            <a href="{{ route('productDetails') }}" class="product-image image-hover-variations">
+                            <a href="{{ route('index') }}" class="product-image image-hover-variations">
                                 <div class="image-vari1 image-vari"><img
                                         src="{{ asset('assets/images/products/home7/footwear-1-410x410.webp') }}" alt="product-image">
                                 </div>
@@ -611,7 +611,7 @@ $footer='flase';
                                 </div>
                             </a>
                             <div class="bottom-content">
-                                <a href="{{ route('productDetails') }}" class="product-name">Lather Men's Canvas</a>
+                                <a href="{{ route('index') }}" class="product-name">Lather Men's Canvas</a>
                                 <div class="action-wrap">
                                     <span class="price">$39.00</span>
                                     <a href="{{ route('cart') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i> Add to Cart</a>
@@ -619,7 +619,7 @@ $footer='flase';
                             </div>
                             <div class="quick-action-button">
                                 <div class="cta-single cta-quickview">
-                                    <button class="product-details-popup-btn"><i class="far fa-eye"></i></button>
+                                    <button class="#"><i class="far fa-eye"></i></button>
                                 </div>
                                 <div class="cta-single cta-wishlist">
                                     <a href="{{ route('wishlist') }}"><i class="far fa-heart"></i></a>
@@ -629,7 +629,7 @@ $footer='flase';
                     </div>
                     <div class="col-xl-3 col-md-4 col-sm-6 col-12">
                         <div class="product-item element-item2">
-                            <a href="{{ route('productDetails') }}" class="product-image image-slider-variations">
+                            <a href="{{ route('index') }}" class="product-image image-slider-variations">
                                 <div class="swiper productSlide">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
@@ -652,7 +652,7 @@ $footer='flase';
                                 </div>
                             </a>
                             <div class="bottom-content">
-                                <a href="{{ route('productDetails') }}" class="product-name">Shot Men's Canvas</a>
+                                <a href="{{ route('index') }}" class="product-name">Shot Men's Canvas</a>
                                 <div class="action-wrap">
                                     <span class="price">$119.00</span>
                                     <a href="{{ route('cart') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i> Add to Cart</a>
@@ -660,7 +660,7 @@ $footer='flase';
                             </div>
                             <div class="quick-action-button">
                                 <div class="cta-single cta-quickview">
-                                    <button class="product-details-popup-btn"><i class="far fa-eye"></i></button>
+                                    <button class="#"><i class="far fa-eye"></i></button>
                                 </div>
                                 <div class="cta-single cta-wishlist">
                                     <a href="{{ route('wishlist') }}"><i class="far fa-heart"></i></a>
@@ -670,7 +670,7 @@ $footer='flase';
                     </div>
                     <div class="col-xl-3 col-md-4 col-sm-6 col-12">
                         <div class="product-item element-item1">
-                            <a href="{{ route('productDetails') }}" class="product-image image-hover-variations">
+                            <a href="{{ route('index') }}" class="product-image image-hover-variations">
                                 <div class="image-vari1 image-vari"><img
                                         src="{{ asset('assets/images/products/home7/foot-6-410x410.webp') }}" alt="product-image">
                                 </div>
@@ -679,7 +679,7 @@ $footer='flase';
                                 </div>
                             </a>
                             <div class="bottom-content">
-                                <a href="{{ route('productDetails') }}" class="product-name">Lather Men's Shoe Bra</a>
+                                <a href="{{ route('index') }}" class="product-name">Lather Men's Shoe Bra</a>
                                 <div class="action-wrap">
                                     <span class="price">$220.00</span>
                                     <a href="{{ route('cart') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i> Add to Cart</a>
@@ -687,7 +687,7 @@ $footer='flase';
                             </div>
                             <div class="quick-action-button">
                                 <div class="cta-single cta-quickview">
-                                    <button class="product-details-popup-btn"><i class="far fa-eye"></i></button>
+                                    <button class="#"><i class="far fa-eye"></i></button>
                                 </div>
                                 <div class="cta-single cta-wishlist">
                                     <a href="{{ route('wishlist') }}"><i class="far fa-heart"></i></a>
@@ -701,7 +701,7 @@ $footer='flase';
                     </div>
                     <div class="col-xl-3 col-md-4 col-sm-6 col-12">
                         <div class="product-item element-item1">
-                            <a href="{{ route('productDetails') }}" class="product-image image-hover-variations">
+                            <a href="{{ route('index') }}" class="product-image image-hover-variations">
                                 <div class="image-vari1 image-vari"><img
                                         src="{{ asset('assets/images/products/home7/foot-8-410x410.webp') }}" alt="product-image">
                                 </div>
@@ -710,7 +710,7 @@ $footer='flase';
                                 </div>
                             </a>
                             <div class="bottom-content">
-                                <a href="{{ route('productDetails') }}" class="product-name">Women's Canvas</a>
+                                <a href="{{ route('index') }}" class="product-name">Women's Canvas</a>
                                 <div class="action-wrap">
                                     <span class="price">$220.00</span>
                                     <a href="{{ route('cart') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i> Add to Cart</a>
@@ -718,7 +718,7 @@ $footer='flase';
                             </div>
                             <div class="quick-action-button">
                                 <div class="cta-single cta-quickview">
-                                    <button class="product-details-popup-btn"><i class="far fa-eye"></i></button>
+                                    <button class="#"><i class="far fa-eye"></i></button>
                                 </div>
                                 <div class="cta-single cta-wishlist">
                                     <a href="{{ route('wishlist') }}"><i class="far fa-heart"></i></a>
@@ -728,7 +728,7 @@ $footer='flase';
                     </div>
                     <div class="col-xl-3 col-md-4 col-sm-6 col-12">
                         <div class="product-item element-item1">
-                            <a href="{{ route('productDetails') }}" class="product-image image-hover-variations">
+                            <a href="{{ route('index') }}" class="product-image image-hover-variations">
                                 <div class="image-vari1 image-vari"><img
                                         src="{{ asset('assets/images/products/home7/foot-3-410x410.webp') }}" alt="product-image">
                                 </div>
@@ -737,7 +737,7 @@ $footer='flase';
                                 </div>
                             </a>
                             <div class="bottom-content">
-                                <a href="{{ route('productDetails') }}" class="product-name">Legacy Lather Sneaker</a>
+                                <a href="{{ route('index') }}" class="product-name">Legacy Lather Sneaker</a>
                                 <div class="action-wrap">
                                     <span class="price">$250.00</span>
                                     <a href="{{ route('cart') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i> Add to Cart</a>
@@ -745,7 +745,7 @@ $footer='flase';
                             </div>
                             <div class="quick-action-button">
                                 <div class="cta-single cta-quickview">
-                                    <button class="product-details-popup-btn"><i class="far fa-eye"></i></button>
+                                    <button class="#"><i class="far fa-eye"></i></button>
                                 </div>
                                 <div class="cta-single cta-wishlist">
                                     <a href="{{ route('wishlist') }}"><i class="far fa-heart"></i></a>
@@ -755,7 +755,7 @@ $footer='flase';
                     </div>
                     <div class="col-xl-3 col-md-4 col-sm-6 col-12">
                         <div class="product-item element-item2">
-                            <a href="{{ route('productDetails') }}" class="product-image image-slider-variations">
+                            <a href="{{ route('index') }}" class="product-image image-slider-variations">
                                 <div class="swiper productSlide2">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
@@ -778,7 +778,7 @@ $footer='flase';
                                 </div>
                             </a>
                             <div class="bottom-content">
-                                <a href="{{ route('productDetails') }}" class="product-name">Lather Men's Canvas</a>
+                                <a href="{{ route('index') }}" class="product-name">Lather Men's Canvas</a>
                                 <div class="action-wrap">
                                     <span class="price">$44.00 - $233.00</span>
                                     <a href="{{ route('cart') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i> Add to Cart</a>
@@ -786,7 +786,7 @@ $footer='flase';
                             </div>
                             <div class="quick-action-button">
                                 <div class="cta-single cta-quickview">
-                                    <button class="product-details-popup-btn"><i class="far fa-eye"></i></button>
+                                    <button class="#"><i class="far fa-eye"></i></button>
                                 </div>
                                 <div class="cta-single cta-wishlist">
                                     <a href="{{ route('wishlist') }}"><i class="far fa-heart"></i></a>
@@ -796,7 +796,7 @@ $footer='flase';
                     </div>
                     <div class="col-xl-3 col-md-4 col-sm-6 col-12">
                         <div class="product-item element-item1">
-                            <a href="{{ route('productDetails') }}" class="product-image image-hover-variations">
+                            <a href="{{ route('index') }}" class="product-image image-hover-variations">
                                 <div class="image-vari1 image-vari"><img
                                         src="{{ asset('assets/images/products/home7/foot-11-410x410.webp') }}" alt="product-image">
                                 </div>
@@ -805,7 +805,7 @@ $footer='flase';
                                 </div>
                             </a>
                             <div class="bottom-content">
-                                <a href="{{ route('productDetails') }}" class="product-name">Lather Men's Lofer</a>
+                                <a href="{{ route('index') }}" class="product-name">Lather Men's Lofer</a>
                                 <div class="action-wrap">
                                     <span class="price">$100.00</span>
                                     <a href="{{ route('cart') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i> Add to Cart</a>
@@ -813,7 +813,7 @@ $footer='flase';
                             </div>
                             <div class="quick-action-button">
                                 <div class="cta-single cta-quickview">
-                                    <button class="product-details-popup-btn"><i class="far fa-eye"></i></button>
+                                    <button class="#"><i class="far fa-eye"></i></button>
                                 </div>
                                 <div class="cta-single cta-wishlist">
                                     <a href="{{ route('wishlist') }}"><i class="far fa-heart"></i></a>
@@ -823,7 +823,7 @@ $footer='flase';
                     </div>
                     <div class="col-xl-3 col-md-4 col-sm-6 col-12">
                         <div class="product-item element-item1">
-                            <a href="{{ route('productDetails') }}" class="product-image image-hover-variations">
+                            <a href="{{ route('index') }}" class="product-image image-hover-variations">
                                 <div class="image-vari1 image-vari"><img
                                         src="{{ asset('assets/images/products/home7/foot-2-410x410.webp') }}" alt="product-image">
                                 </div>
@@ -832,7 +832,7 @@ $footer='flase';
                                 </div>
                             </a>
                             <div class="bottom-content">
-                                <a href="{{ route('productDetails') }}" class="product-name">Sprint Men's Canvas</a>
+                                <a href="{{ route('index') }}" class="product-name">Sprint Men's Canvas</a>
                                 <div class="action-wrap">
                                     <span class="price">$220.00</span>
                                     <a href="{{ route('cart') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i> Add to Cart</a>
@@ -840,7 +840,7 @@ $footer='flase';
                             </div>
                             <div class="quick-action-button">
                                 <div class="cta-single cta-quickview">
-                                    <button class="product-details-popup-btn"><i class="far fa-eye"></i></button>
+                                    <button class="#"><i class="far fa-eye"></i></button>
                                 </div>
                                 <div class="cta-single cta-wishlist">
                                     <a href="{{ route('wishlist') }}"><i class="far fa-heart"></i></a>
@@ -871,7 +871,7 @@ $footer='flase';
     <!-- ..::Video Section End Here::.. -->
 
     <!-- ..::Featured Product Section Start Here::.. -->
-    <div class="rts-featured-product-section4 product-section7">
+    <div class="rts-featured-product-section4 product-section7" id="Explore_our">
         <div class="container">
             <div class="rts-featured-product-section-inner">
                 <div class="section-header section-header3 text-center">
@@ -896,7 +896,7 @@ $footer='flase';
                 <div class="fill">
                     <div class="element-item transition popular " data-category="transition">
                         <div class="product-item element-item1">
-                            <a href="{{ route('productDetails') }}" class="product-image image-hover-variations">
+                            <a href="{{ route('index') }}" class="product-image image-hover-variations">
                                 <div class="image-vari1 image-vari"><img
                                         src="{{ asset('assets/images/products/home7/footwear-1-410x410.webp') }}" alt="product-image">
                                 </div>
@@ -905,7 +905,7 @@ $footer='flase';
                                 </div>
                             </a>
                             <div class="bottom-content">
-                                <a href="{{ route('productDetails') }}" class="product-name">Lather Men's Canvas</a>
+                                <a href="{{ route('index') }}" class="product-name">Lather Men's Canvas</a>
                                 <div class="action-wrap">
                                     <span class="price">$100.00</span>
                                     <a href="{{ route('cart') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i> Add to Cart</a>
@@ -913,7 +913,7 @@ $footer='flase';
                             </div>
                             <div class="quick-action-button">
                                 <div class="cta-single cta-quickview">
-                                    <button class="product-details-popup-btn"><i class="far fa-eye"></i></button>
+                                    <button class="#"><i class="far fa-eye"></i></button>
                                 </div>
                                 <div class="cta-single cta-wishlist">
                                     <a href="{{ route('wishlist') }}"><i class="far fa-heart"></i></a>
@@ -923,7 +923,7 @@ $footer='flase';
                     </div>
                     <div class="element-item on-sale " data-category="metalloid">
                         <div class="product-item element-item1">
-                            <a href="{{ route('productDetails') }}" class="product-image image-hover-variations">
+                            <a href="{{ route('index') }}" class="product-image image-hover-variations">
                                 <div class="image-vari1 image-vari"><img
                                         src="{{ asset('assets/images/products/home7/footwear-1-410x410.webp') }}" alt="product-image">
                                 </div>
@@ -932,7 +932,7 @@ $footer='flase';
                                 </div>
                             </a>
                             <div class="bottom-content">
-                                <a href="{{ route('productDetails') }}" class="product-name">Lather Men's Canvas</a>
+                                <a href="{{ route('index') }}" class="product-name">Lather Men's Canvas</a>
                                 <div class="action-wrap">
                                     <span class="price">$39.00</span>
                                     <a href="{{ route('cart') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i> Add to Cart</a>
@@ -940,7 +940,7 @@ $footer='flase';
                             </div>
                             <div class="quick-action-button">
                                 <div class="cta-single cta-quickview">
-                                    <button class="product-details-popup-btn"><i class="far fa-eye"></i></button>
+                                    <button class="#"><i class="far fa-eye"></i></button>
                                 </div>
                                 <div class="cta-single cta-wishlist">
                                     <a href="{{ route('wishlist') }}"><i class="far fa-heart"></i></a>
@@ -950,7 +950,7 @@ $footer='flase';
                     </div>
                     <div class="element-item on-sale best-rate " data-category="metalloid">
                         <div class="product-item element-item1">
-                            <a href="{{ route('productDetails') }}" class="product-image image-hover-variations">
+                            <a href="{{ route('index') }}" class="product-image image-hover-variations">
                                 <div class="image-vari1 image-vari"><img
                                         src="{{ asset('assets/images/products/home7/foot-6-410x410.webp') }}" alt="product-image">
                                 </div>
@@ -959,7 +959,7 @@ $footer='flase';
                                 </div>
                             </a>
                             <div class="bottom-content">
-                                <a href="{{ route('productDetails') }}" class="product-name">Lather Men's Shoe Bra</a>
+                                <a href="{{ route('index') }}" class="product-name">Lather Men's Shoe Bra</a>
                                 <div class="action-wrap">
                                     <span class="price">$119.00</span>
                                     <a href="{{ route('cart') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i> Add to Cart</a>
@@ -967,7 +967,7 @@ $footer='flase';
                             </div>
                             <div class="quick-action-button">
                                 <div class="cta-single cta-quickview">
-                                    <button class="product-details-popup-btn"><i class="far fa-eye"></i></button>
+                                    <button class="#"><i class="far fa-eye"></i></button>
                                 </div>
                                 <div class="cta-single cta-wishlist">
                                     <a href="{{ route('wishlist') }}"><i class="far fa-heart"></i></a>
@@ -981,7 +981,7 @@ $footer='flase';
                     </div>
                     <div class="element-item on-sale " data-category="metalloid">
                         <div class="product-item element-item1">
-                            <a href="{{ route('productDetails') }}" class="product-image image-hover-variations">
+                            <a href="{{ route('index') }}" class="product-image image-hover-variations">
                                 <div class="image-vari1 image-vari"><img
                                         src="{{ asset('assets/images/products/home7/foot-8-410x410.webp') }}" alt="product-image">
                                 </div>
@@ -990,7 +990,7 @@ $footer='flase';
                                 </div>
                             </a>
                             <div class="bottom-content">
-                                <a href="{{ route('productDetails') }}" class="product-name">Women's Canvas</a>
+                                <a href="{{ route('index') }}" class="product-name">Women's Canvas</a>
                                 <div class="action-wrap">
                                     <span class="price">$44.00 - $233.00</span>
                                     <a href="{{ route('cart') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i> Add to Cart</a>
@@ -998,7 +998,7 @@ $footer='flase';
                             </div>
                             <div class="quick-action-button">
                                 <div class="cta-single cta-quickview">
-                                    <button class="product-details-popup-btn"><i class="far fa-eye"></i></button>
+                                    <button class="#"><i class="far fa-eye"></i></button>
                                 </div>
                                 <div class="cta-single cta-wishlist">
                                     <a href="{{ route('wishlist') }}"><i class="far fa-heart"></i></a>
@@ -1008,7 +1008,7 @@ $footer='flase';
                     </div>
                     <div class="element-item transition popular " data-category="transition">
                         <div class="product-item element-item1">
-                            <a href="{{ route('productDetails') }}" class="product-image image-hover-variations">
+                            <a href="{{ route('index') }}" class="product-image image-hover-variations">
                                 <div class="image-vari1 image-vari"><img
                                         src="{{ asset('assets/images/products/home7/foot-3-410x410.webp') }}" alt="product-image">
                                 </div>
@@ -1017,7 +1017,7 @@ $footer='flase';
                                 </div>
                             </a>
                             <div class="bottom-content">
-                                <a href="{{ route('productDetails') }}" class="product-name">Legacy Lather Sneaker</a>
+                                <a href="{{ route('index') }}" class="product-name">Legacy Lather Sneaker</a>
                                 <div class="action-wrap">
                                     <span class="price">$220.00</span>
                                     <a href="{{ route('cart') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i> Add to Cart</a>
@@ -1025,7 +1025,7 @@ $footer='flase';
                             </div>
                             <div class="quick-action-button">
                                 <div class="cta-single cta-quickview">
-                                    <button class="product-details-popup-btn"><i class="far fa-eye"></i></button>
+                                    <button class="#"><i class="far fa-eye"></i></button>
                                 </div>
                                 <div class="cta-single cta-wishlist">
                                     <a href="{{ route('wishlist') }}"><i class="far fa-heart"></i></a>
@@ -1035,7 +1035,7 @@ $footer='flase';
                     </div>
                     <div class="element-item on-sale best-rate" data-category="metalloid">
                         <div class="product-item element-item2">
-                            <a href="{{ route('productDetails') }}" class="product-image image-slider-variations">
+                            <a href="{{ route('index') }}" class="product-image image-slider-variations">
                                 <div class="swiper productSlide2">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
@@ -1058,7 +1058,7 @@ $footer='flase';
                                 </div>
                             </a>
                             <div class="bottom-content">
-                                <a href="{{ route('productDetails') }}" class="product-name">Lather Men's Canvas</a>
+                                <a href="{{ route('index') }}" class="product-name">Lather Men's Canvas</a>
                                 <div class="action-wrap">
                                     <span class="price">$150.00</span>
                                     <a href="{{ route('cart') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i> Add to Cart</a>
@@ -1066,7 +1066,7 @@ $footer='flase';
                             </div>
                             <div class="quick-action-button">
                                 <div class="cta-single cta-quickview">
-                                    <button class="product-details-popup-btn"><i class="far fa-eye"></i></button>
+                                    <button class="#"><i class="far fa-eye"></i></button>
                                 </div>
                                 <div class="cta-single cta-wishlist">
                                     <a href="{{ route('wishlist') }}"><i class="far fa-heart"></i></a>
@@ -1076,7 +1076,7 @@ $footer='flase';
                     </div>
                     <div class="element-item on-sale best-rate " data-category="metalloid">
                         <div class="product-item element-item1">
-                            <a href="{{ route('productDetails') }}" class="product-image image-hover-variations">
+                            <a href="{{ route('index') }}" class="product-image image-hover-variations">
                                 <div class="image-vari1 image-vari"><img
                                         src="{{ asset('assets/images/products/home7/foot-11-410x410.webp') }}" alt="product-image">
                                 </div>
@@ -1085,7 +1085,7 @@ $footer='flase';
                                 </div>
                             </a>
                             <div class="bottom-content">
-                                <a href="{{ route('productDetails') }}" class="product-name">Lather Men's Lofer</a>
+                                <a href="{{ route('index') }}" class="product-name">Lather Men's Lofer</a>
                                 <div class="action-wrap">
                                     <span class="price">$150.00</span>
                                     <a href="{{ route('cart') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i> Add to Cart</a>
@@ -1093,7 +1093,7 @@ $footer='flase';
                             </div>
                             <div class="quick-action-button">
                                 <div class="cta-single cta-quickview">
-                                    <button class="product-details-popup-btn"><i class="far fa-eye"></i></button>
+                                    <button class="#"><i class="far fa-eye"></i></button>
                                 </div>
                                 <div class="cta-single cta-wishlist">
                                     <a href="{{ route('wishlist') }}"><i class="far fa-heart"></i></a>
@@ -1103,7 +1103,7 @@ $footer='flase';
                     </div>
                     <div class="element-item featured" data-category="metalloid">
                         <div class="product-item element-item1">
-                            <a href="{{ route('productDetails') }}" class="product-image image-hover-variations">
+                            <a href="{{ route('index') }}" class="product-image image-hover-variations">
                                 <div class="image-vari1 image-vari"><img
                                         src="{{ asset('assets/images/products/home7/foot-2-410x410.webp') }}" alt="product-image">
                                 </div>
@@ -1112,7 +1112,7 @@ $footer='flase';
                                 </div>
                             </a>
                             <div class="bottom-content">
-                                <a href="{{ route('productDetails') }}" class="product-name">Sprint Men's Canvas</a>
+                                <a href="{{ route('index') }}" class="product-name">Sprint Men's Canvas</a>
                                 <div class="action-wrap">
                                     <span class="price">$220.00</span>
                                     <a href="{{ route('cart') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i> Add to Cart</a>
@@ -1120,7 +1120,7 @@ $footer='flase';
                             </div>
                             <div class="quick-action-button">
                                 <div class="cta-single cta-quickview">
-                                    <button class="product-details-popup-btn"><i class="far fa-eye"></i></button>
+                                    <button class="#"><i class="far fa-eye"></i></button>
                                 </div>
                                 <div class="cta-single cta-wishlist">
                                     <a href="{{ route('wishlist') }}"><i class="far fa-heart"></i></a>
@@ -1180,7 +1180,7 @@ $footer='flase';
     <!-- ..::Deal Section End Here::.. -->
 
     <!-- ..::Featured Product Section Start Here::.. -->
-    <div class="rts-featured-product-section3 section-7">
+    <div class="rts-featured-product-section3 section-7" id="blog">
         <div class="container">
             <div class="rts-featured-product-section-inner">
                 <div class="section-header section-header3 text-center">
