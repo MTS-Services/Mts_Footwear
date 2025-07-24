@@ -66,7 +66,7 @@ $footer='flase';
                         <div class="rts-menu">
                             <nav class="menus menu-toggle">
                                 <ul class="nav__menu">
-                                    <li class="has-dropdown"><a class="menu-item active1" href="{{ route('index') }}">Home <i
+                                    <li class="has-dropdown"><a class="menu-item active1" href="{{ route('index') }}">Rsd <i
                                                 class="rt-plus"></i></a>
                                         
                                     </li>
